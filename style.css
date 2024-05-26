@@ -1,0 +1,21 @@
+.Calculator {
+    gap: 1.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Calculator .Addition input  {
+    width: 50px;
+}
+
+.Calculator .Subtraction input  {
+    width: 50px;
+}
+
+.Calculator .Multiplication input  {
+    width: 50px;
+}
+
+.Calculator .Division input  {
+    width: 50px;
+}

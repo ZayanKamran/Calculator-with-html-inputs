@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="Calculator">
+        <h2>Addition</h2>
+        <div class="Addition">
+            <input type="number" placeholder="0" id="addNum1">
+            +
+            <input type="number" placeholder="0" id="addNum2">
+            =
+            <input id="addResult" type="text" readonly>
+            <button onclick="addition(event)">Answer</button>
+        </div>
+        
+        <h2>Subtraction</h2>
+        <div class="Subtraction">
+            <input type="number" placeholder="0" id="subNum1">
+            -
+            <input type="number" placeholder="0" id="subNum2">
+            =
+            <input id="subResult" type="text" readonly>
+            <button onclick="subtraction(event)">Answer</button>
+        </div>
+
+        <h2>Multiplication</h2>
+        <div class="Multiplication">
+            <input type="number" placeholder="0" id="mulNum1">
+            *
+            <input type="number" placeholder="0" id="mulNum2">
+            =
+            <input id="mulResult" type="text" readonly>
+            <button onclick="multiplication(event)">Answer</button>
+        </div>
+
+        <h2>Division</h2>
+        <div class="Division">
+            <input type="number" placeholder="0" id="divNum1">
+            /
+            <input type="number" placeholder="0" id="divNum2">
+            =
+            <input id="divResult" type="text" readonly>
+            <button onclick="division(event)">Answer</button>
+        </div>
+    </div>
+</body>
+</html>
